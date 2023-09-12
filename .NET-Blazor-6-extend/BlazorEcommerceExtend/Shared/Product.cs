@@ -1,5 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿#region Usings
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+#endregion
 
 namespace BlazorEcommerceExtend.Shared
 {

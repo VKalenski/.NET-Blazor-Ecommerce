@@ -9,9 +9,9 @@ global using BlazorEcommerceExtend.Server.Services.PaymentService;
 global using BlazorEcommerceExtend.Server.Services.ProductService;
 global using BlazorEcommerceExtend.Server.Services.ProductTypeService;
 global using BlazorEcommerceExtend.Shared;
+global using Microsoft.AspNetCore.Authentication.JwtBearer;
 global using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
+global using Microsoft.IdentityModel.Tokens;
 #endregion
 
 var builder = WebApplication.CreateBuilder(args);
@@ -49,6 +49,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidateAudience = false
         };
     });
+
 builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();

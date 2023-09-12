@@ -15,6 +15,7 @@ namespace BlazorEcommerceExtend.Server.Services.AddressService
         }
         #endregion
 
+        #region Methods
         public async Task<ServiceResponse<Address>> AddOrUpdateAddress(Address address)
         {
             var response = new ServiceResponse<Address>();
@@ -49,5 +50,6 @@ namespace BlazorEcommerceExtend.Server.Services.AddressService
                 .FirstOrDefaultAsync(a => a.UserId == userId);
             return new ServiceResponse<Address> { Data = address };
         }
+        #endregion
     }
 }
