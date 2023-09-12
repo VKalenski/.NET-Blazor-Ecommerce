@@ -18,6 +18,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorEcommerce.Server", ".
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorEcommerce.Shared", ".NET-Blazor-6\Shared\BlazorEcommerce.Shared.csproj", "{B1D980D8-BCFC-4E42-AF3B-AFCB0EBE6F70}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET-Blazor-6-extend", ".NET-Blazor-6-extend", "{B9952208-03D3-4DD4-A95F-6D52564626D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorEcommerceExtend.Server", ".NET-Blazor-6-extend\BlazorEcommerceExtend\Server\BlazorEcommerceExtend.Server.csproj", "{D4654B0D-990F-4F23-B425-FB0294ADDC38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorEcommerceExtend.Client", ".NET-Blazor-6-extend\BlazorEcommerceExtend\Client\BlazorEcommerceExtend.Client.csproj", "{2D6143B0-F7BA-4A3B-BB6F-77ACCE096737}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorEcommerceExtend.Shared", ".NET-Blazor-6-extend\BlazorEcommerceExtend\Shared\BlazorEcommerceExtend.Shared.csproj", "{4F9F97C5-DA1C-4C70-9CF3-EA8CFB618F5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +44,18 @@ Global
 		{B1D980D8-BCFC-4E42-AF3B-AFCB0EBE6F70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1D980D8-BCFC-4E42-AF3B-AFCB0EBE6F70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1D980D8-BCFC-4E42-AF3B-AFCB0EBE6F70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4654B0D-990F-4F23-B425-FB0294ADDC38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4654B0D-990F-4F23-B425-FB0294ADDC38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4654B0D-990F-4F23-B425-FB0294ADDC38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4654B0D-990F-4F23-B425-FB0294ADDC38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D6143B0-F7BA-4A3B-BB6F-77ACCE096737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D6143B0-F7BA-4A3B-BB6F-77ACCE096737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D6143B0-F7BA-4A3B-BB6F-77ACCE096737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D6143B0-F7BA-4A3B-BB6F-77ACCE096737}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F9F97C5-DA1C-4C70-9CF3-EA8CFB618F5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F9F97C5-DA1C-4C70-9CF3-EA8CFB618F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F9F97C5-DA1C-4C70-9CF3-EA8CFB618F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F9F97C5-DA1C-4C70-9CF3-EA8CFB618F5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +64,9 @@ Global
 		{723DEF74-BC30-4BE6-B770-C9E6C2D21EDA} = {68636383-F30D-4EEA-B112-8EE53E064617}
 		{10301AC8-F0EE-4D52-BACF-F7753D8B625F} = {68636383-F30D-4EEA-B112-8EE53E064617}
 		{B1D980D8-BCFC-4E42-AF3B-AFCB0EBE6F70} = {68636383-F30D-4EEA-B112-8EE53E064617}
+		{D4654B0D-990F-4F23-B425-FB0294ADDC38} = {B9952208-03D3-4DD4-A95F-6D52564626D3}
+		{2D6143B0-F7BA-4A3B-BB6F-77ACCE096737} = {B9952208-03D3-4DD4-A95F-6D52564626D3}
+		{4F9F97C5-DA1C-4C70-9CF3-EA8CFB618F5A} = {B9952208-03D3-4DD4-A95F-6D52564626D3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BA042023-D097-4E71-965A-35D280ED957C}
