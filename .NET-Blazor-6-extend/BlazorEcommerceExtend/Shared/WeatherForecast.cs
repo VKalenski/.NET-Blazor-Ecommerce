@@ -1,4 +1,4 @@
-namespace BlazorEcommerce.Shared
+namespace BlazorEcommerceExtend.Shared
 {
     public class WeatherForecast
     {
